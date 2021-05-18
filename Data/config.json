@@ -1,0 +1,12 @@
+{
+  "DC-Token": "Your Discord Bot Token",
+  "API-Token": "Your Kawaii API Token",
+  "Description": "The random Image API for Discord Bots",
+  "Owner-ID": 441192596325531648,
+  "Time-Syntax": "%d.%m.%Y %H:%M:%S",
+  "Color": [237, 76, 103],
+  "Cooldown": [1, 1],
+  "Prefix": "k.",
+  "Version": "1.0.0",
+  "Shard-Count": 1
+}
