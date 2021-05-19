@@ -36,11 +36,6 @@ def version():
 def shard_count():
     return json.load(open(r'Data/config.json', 'r'))["Shard-Count"]
 
-# database
-mongo_client = MongoClient('127.0.0.1')
-cluster = mongo_client['website-api']
-db = cluster['users']
-
 # color for discord
 def discord_color():
     return discord.Color.from_rgb(color()[0], color()[1], color()[2])
