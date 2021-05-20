@@ -191,6 +191,11 @@ class GIF(commands.Cog):
     async def mad(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
+# money
+    @commands.command()
+    async def money(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
 # nom
     @commands.command()
     async def nom(self, ctx, *, message=None):
