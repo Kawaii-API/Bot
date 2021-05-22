@@ -41,6 +41,11 @@ class GIF(commands.Cog):
     async def baka(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
+# bite
+    @commands.command()
+    async def bite(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
 # blush
     @commands.command()
     async def blush(self, ctx, *, message=None):
