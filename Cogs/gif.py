@@ -56,11 +56,6 @@ class GIF(commands.Cog):
     async def blyat(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
-# brr
-    @commands.command()
-    async def brr(self, ctx, *, message=None):
-        await send_gif(ctx, message)
-
 # clap
     @commands.command()
     async def clap(self, ctx, *, message=None):
