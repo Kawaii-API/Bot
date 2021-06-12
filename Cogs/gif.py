@@ -56,6 +56,11 @@ class GIF(commands.Cog):
     async def blyat(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
+# boop
+    @commands.command()
+    async def boop(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
 # clap
     @commands.command()
     async def clap(self, ctx, *, message=None):
@@ -221,6 +226,11 @@ class GIF(commands.Cog):
     async def pat(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
+# peek
+    @commands.command()
+    async def peek(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
 # poke
     @commands.command()
     async def poke(self, ctx, *, message=None):
@@ -289,6 +299,11 @@ class GIF(commands.Cog):
 # shrug
     @commands.command()
     async def shrug(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
+# sip
+    @commands.command()
+    async def sip(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
 # slap
