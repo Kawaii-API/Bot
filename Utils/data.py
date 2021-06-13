@@ -1,7 +1,6 @@
 # imports (don't remove)
 from discord.ext.commands import CommandNotFound
 from discord.ext import commands, tasks
-from pymongo import MongoClient
 from datetime import datetime
 from time import perf_counter
 import platform
