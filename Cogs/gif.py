@@ -386,6 +386,21 @@ class GIF(commands.Cog):
     async def yeet(self, ctx, *, message=None):
         await send_gif(ctx, message)
 
+# wink
+    @commands.command()
+    async def wink(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
+# sit
+    @commands.command()
+    async def sit(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
+# salute
+    @commands.command()
+    async def salute(self, ctx, *, message=None):
+        await send_gif(ctx, message)
+
 # setup
 def setup(bot):
     bot.add_cog(GIF(bot))
