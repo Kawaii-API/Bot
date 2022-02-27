@@ -3,3 +3,5 @@
 > 
 > ### What is this?
 > Here you can find the complete Kawaii Bot Code. You can get inspired by it or just copy something out is up to you.
+
+_This example uses [Discord.py](https://github.com/Rapptz/discord.py)_
