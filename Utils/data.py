@@ -42,7 +42,7 @@ def discord_color():
 # request
 async def request(main_endpoint: str, sub_endpoint: str, response_type: str = 'json'):
     async with aiohttp.ClientSession() as session:
-        async with session.get(f'https://kawaii.red/api/{main_endpoint}/{sub_endpoint}/token={api_token()}&type={response_type}/') as r:
+        async with session.get(f'https://kawaii.red/api/{main_endpoint}/{sub_endpoint}?token={api_token()}&type={response_type}') as r:
             js = await r.json()
             return js["response"]
 
